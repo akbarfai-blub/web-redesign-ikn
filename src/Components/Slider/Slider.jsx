@@ -90,7 +90,7 @@ const Slider = () => {
   };
 
   return (
-    <section className="relative w-full h-[500px] flex items-center justify-center overflow-hidden">
+    <section className="relative w-full h-[500px] sm:h-[400px] md:h-[500px] lg:h-[600px] xl:h-[700px] flex items-center justify-center overflow-hidden">
       {/* Fixed Position h1 */}
       {slides.map((slide, index) => (
         <div
@@ -114,17 +114,19 @@ const Slider = () => {
               style={{ backgroundImage: `url(${slide.image})` }}
             ></div>
           </div>
-          <div className="w-1/2 flex flex-col justify-center p-8 bg-white z-10 text-left">
-            {/* Add the new h1 element */}
+          {/* Content with Heading above */}
+          <div className="relative w-1/2 flex flex-col justify-center  p-6 sm:p-8 md:p-10 lg:p-12 bg-white z-10 text-left">
+            {/* Heading */}
             {slide.heading && (
-              <h1 className="text-5xl font-extrabold mb-4 pb-6 text-brandBrown">
+              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold mb-3 sm:mb-5 md:mb-6 lg:mb-8 text-brandBrown">
                 {slide.heading}
               </h1>
             )}
-            <h2 className="text-3xl font-bold mb-4 text-black">
+            {/* Title and List */}
+            <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold mb-3 sm:mb-5 md:mb-6 lg:mb-8 text-black">
               {slide.title}
             </h2>
-            <ul className="list-disc mb-8 text-black ml-4">
+            <ul className="list-disc mb-4 sm:mb-6 md:mb-8 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-black ml-4">
               {slide.list.map((item, idx) => (
                 <li key={idx} className="mb-2">
                   {item}
