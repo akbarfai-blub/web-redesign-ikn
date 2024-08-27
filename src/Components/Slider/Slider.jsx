@@ -27,7 +27,7 @@ const slides = [
     heading: "Delapan Prinsip Ibu Kota Negara",
     title: "2. Bhineka Tunggal Ika",
     list: [
-      "100% integrasi seluruh penduduk, baik penduduk lokal maupun pendatang",
+      "Lebih dari 75% kawasan hijau di Kawasan Pemerintahan IKN",
       "100% warga dapat mengakses layanan sosial atau masyarakat dalam 10 menit",
       "100% tempat umum dirancang menggunakan prinsip akses universal, kearifan lokal, dan desain inklusif",
     ],
@@ -36,31 +36,51 @@ const slides = [
     image: image3,
     heading: "Delapan Prinsip Ibu Kota Negara",
     title: "3. Terhubung, Aktif, dan Mudah di Pakai",
-    list: ["Item A", "Item B", "Item C"],
+    list: [
+      "80% perjalanan dengan transportasi umum atau mobilitas aktif ",
+      "10 menit ke fasilitas penting dan simpul transportasi umum ",
+      "<50 Menit koneksi transit ekspres dari Kawasan Inti Pusat Pemerintahan ke bandara strategis pada 2030 ",
+    ],
   },
   {
     image: image4,
     heading: "Delapan Prinsip Ibu Kota Negara",
     title: "4. Rendah Emisi Karbon",
-    list: ["Item A", "Item B", "Item C"],
+    list: [
+      "Instalasi kapasitas energi terbarukan akan memenuhi 100% kebutuhan energi IKN ",
+      "60% peningkatan efisiensi energi dalam bangunan umum yang baru di 2045 ",
+      "Net Zero Emissions di IKN pada 2045 ",
+    ],
   },
   {
     image: image5,
     heading: "Delapan Prinsip Ibu Kota Negara",
     title: "5. Sirkuler dan Tangguh",
-    list: ["Item A", "Item B", "Item C"],
+    list: [
+      "10% dari lahan seluas Kawasan Pemerintahan IKN tersedia untuk kebutuhan produksi pangan",
+      "60% daur ulang semua timbulan sampah di 2045",
+      "100% air limbah akan diolah melalui sistem pengolahan pada 2035",
+    ],
   },
   {
     image: image6,
     heading: "Delapan Prinsip Ibu Kota Negara",
     title: "6. Aman dan Terjangkau",
-    list: ["Item A", "Item B", "Item C"],
+    list: [
+      "10 Kota terbaik menurut Global Liveablity Index pada 2045  ",
+      "Semua permukiman di Kawasan Pemerintahan IKN memiliki akses terhadap infrastruktur penting di 2045  ",
+      "Perumahan yang adil dengan perbandingan 1:3:6 untuk jenis perumahan mewah, menengah, dan sederhana  ",
+    ],
   },
   {
     image: image7,
     heading: "Delapan Prinsip Ibu Kota Negara",
     title: "7. Kenyamanan dan Efisiensi Melalui Teknologi",
-    list: ["Item A", "Item B", "Item C"],
+    list: [
+      "Memperoleh peringkat Very High dalam perangkat e-Gov Development Index oleh PBB",
+      "100% Konektivitas digital dan TIK untuk semua penduduk dan bisnis",
+      "Lebih dari 75% kepuasan bisnis dengan peringkat layanan digital",
+    ],
   },
   {
     image: image8,
