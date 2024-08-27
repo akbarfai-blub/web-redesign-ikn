@@ -15,15 +15,17 @@ const Hero = () => {
             playsInline
             poster={hero}
           ></video>
+          <div className="absolute inset-0 bg-black opacity-50"></div>{" "}
+          {/* Dark overlay */}
         </div>
 
         {/* <div></div> */}
 
         <div className="relative z-10 flex flex-col items-center text-white px-4">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">
+          <h1 className="text-4xl md:text-8xl font-bold mb-4">
             Kota Dunia Untuk Semua
           </h1>
-          <p className="text-lg md:text-2xl mb-8">
+          <p className="text-2xl md:text-4xl mb-8">
             Menuju visi Indonesia 2045.
           </p>
         </div>

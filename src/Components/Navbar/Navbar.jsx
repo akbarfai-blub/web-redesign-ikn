@@ -22,9 +22,7 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed top-0 left-0 w-full flex flex-row justify-around items-center py-4 md:py-8 uppercase font-semibold z-20 text-xs md:text-lg text-white transition-colors duration-300 ${
-        isScrolled
-          ? "bg-brandBrown text-white"
-          : "bg-transparent text-brandBrown"
+        isScrolled ? "bg-brandBrown " : "bg-transparent "
       }`}
     >
       <a
@@ -40,7 +38,7 @@ const Navbar = () => {
         Explore
       </a>
       <a href="#">
-        <img src={Logo} alt="" className="w-14" />
+        <img src={Logo} alt="" className="w-20" />
       </a>
       <a
         href="#"
