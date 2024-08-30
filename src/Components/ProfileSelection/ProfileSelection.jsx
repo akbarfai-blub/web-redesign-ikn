@@ -15,14 +15,16 @@ const ProfileSelection = () => {
       <div className="flex flex-col md:flex-row items-center w-full max-w-5xl">
         {/* Left Column: Bio */}
         <div className="md:w-1/3 p-6 flex flex-col justify-center text-center md:text-left">
-          <h2 className="text-3xl font-semibold text-gray-800">John Doe</h2>
+          <h2 className="text-3xl font-semibold text-gray-800">Ir.Soekarno</h2>
           <h3 className="text-xl font-medium text-gray-600 mt-2">
-            Senior Software Engineer
+            Presiden Indonesia Pertama
           </h3>
           <p className="text-gray-600 mt-4">
-            John is a seasoned developer with over 10 years of experience in
-            full-stack development. He specializes in building scalable web
-            applications using modern technologies.
+            Soekarno lahir pada 6 Juni 1901 di Blitar, Jawa Timur, yang pada
+            saat itu masih merupakan bagian dari Hindia Belanda. Ia berasal dari
+            keluarga Jawa keturunan bangsawan. Meskipun memiliki latar belakang
+            yang cukup beruntung, Soekarno tumbuh dengan semangat nasionalisme
+            yang kuat.
           </p>
           <div className="flex items-center mt-4 text-gray-500">
             <AiOutlineInfoCircle className="mr-2" />
