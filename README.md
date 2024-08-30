@@ -1,3 +1,6 @@
+I did practicing my frontend skill right now, this project design will be look massy
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
