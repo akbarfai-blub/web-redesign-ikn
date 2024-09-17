@@ -1,4 +1,5 @@
-I did practicing my frontend skill right now, this project design will be look massy
+I did practicing my frontend skill right now, this project design will be look awful
+
 
 
 # React + Vite
